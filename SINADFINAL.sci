@@ -1,3 +1,6 @@
+//Ankita Keshari, B,Tech (ECE)
+//Function: Sinad
+//input arguments: n,p()
 function[x,y,ss]= sinad(n,p,q,r)
     x = p*cos(%pi/4*n)+q*sin(%pi/2*n)
     y = p*cos(%pi/4*n)+q*sin(%pi/2*n)+r*rand((n),"normal")
